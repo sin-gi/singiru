@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- 회원가입 -->
+        <p>가입정보를 입력해주세요</p>
+        <fieldset>
+            <legend>회원가입 정보</legend>
+            <p> 아이디<br/>
+            <input type="text" placeholder="5~20자의 영문 소문자, 숫자 사용"/>
+            <button type="submit">중복확인</button></p>
+            <p>비밀번호<br/>
+            <input type="password" placeholder="8~12자의 영문 소문자, 숫자, 특수문자 조합"/>
+            <p>비밀번호 확인<br/>
+            <input type="password" placeholder="비밀번호를 한번 더 입력"/></p>
+            <p>성/이름<br/>
+            <input type="text" placeholder="성 입력"/><br/>
+            <input type="text" placeholder="이름 입력"/></p>
+            <p> 생년월일<br/>
+            <input type="date"/>
+            <p> 이메일<br/>
+            <input type="email" placeholder="이메일 입력"/>
+            <span>
+            <p> 휴대전화번호<br/>
+                <input type="text" placeholder="숫자만 입력"/>
+                <button type="submit">인증번호 발송</button><br/>
+                <input type="text" placeholder="인증번호 입력"/>
+                <button type="submit">인증하기</button>
+            </span>
+            <p>성별<br/>
+                <input type="radio" name="gender" /> 남성
+                <input type="radio" name="gender" /> 여성
+                <input type="radio" name="gender" /> 선택안함
+            </p>
+            <button type="submit">가입하기</button>
+        </fieldset>   
+</body>
+</html>
