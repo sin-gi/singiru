@@ -38,7 +38,6 @@
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
-        </div>
     </div>
     <!-- Spinner End -->
 
@@ -75,8 +74,6 @@
                 <a href="Photo.html" class="nav-item nav-link">포토 갤러리</a>
                 <a href="Event.html" class="nav-item nav-link">이벤트</a>
             </div>
-            
-        </div>
     </nav>
     <!-- Navbar End -->
 
